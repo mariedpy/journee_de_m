@@ -20,6 +20,7 @@ color: white;
 position: absolute;
 margin-left: 40px;
 text-shadow: 0.2em 0.2em 0 rgba(0,0,0,.7);
+z-index: 4;
 
 }
 
@@ -35,6 +36,42 @@ text-shadow: 0.2em 0.2em 0 rgba(0,0,0,.7);
 }
 
 
+
+.image1{
+	position: relative;
+}
+
+.image2{
+	position: absolute;
+	top: 0;
+	left: 2px;
+	z-index: 2;
+	animation-name: moving;
+	animation-iteration-count: infinite;
+	animation-duration: 1s;
+
+}
+
+.image3{
+	position: absolute;
+	top: 0;
+	left: 2px;
+	z-index: 3;
+}
+
+@keyframes moving{
+0%{
+	left: 2px;
+}
+
+50%{
+	left: -15px;
+}
+100%{
+	left: 2px;
+}
+
+}
 
 
 /*LA PARTIE DONT LA WIDTH SE REDUIRA A FIL DES COUPS RECUS*/
@@ -64,19 +101,7 @@ text-shadow: 0.2em 0.2em 0 rgba(0,0,0,.7);
 
 /*BACKGROUNDS*/
 
-#case1{
-	background: url('../img/case_1_bg.png')
-}
 
-.image1{
-	position: relative;
-}
-
-.image2{
-	position: absolute;
-	top: 0;
-	z-index: 2;
-}
 
 
 
