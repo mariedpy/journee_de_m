@@ -3,6 +3,26 @@ body{
 	padding: 0;
 }
 
+* { margin:0; padding:0; box-sizing:border-box; }
+
+
+.playerBar {
+	border: 2px solid white;
+	border-radius: 2px;
+	width: 20rem;
+	height: 40px;
+	/*margin : 0 2rem;*/
+}
+
+/*LA PARTIE DONT LA WIDTH SE REDUIRA A FIL DES COUPS RECUS*/
+.playerLife {
+	max-width: 100%;
+	height: 100%;
+	background-color: grey;
+	transition: width 500ms;
+	transition-timing-function: ease-in;
+}
+
 
 @media only screen 
     and (device-width : 375px) 
@@ -25,6 +45,8 @@ body{
 #case1{
 	background: url('../img/case_1_bg.png')
 }
+
+
 
 
 }
