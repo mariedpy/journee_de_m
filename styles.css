@@ -1,0 +1,30 @@
+body{
+	background-color: black;
+	padding: 0;
+}
+
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+   /* and (-webkit-device-pixel-ratio : 3)*/
+    and (orientation : landscape)  { 
+
+
+.container{
+	width: 100%;
+	height: 100vh;
+}
+
+.background{
+
+	background-size: fit;
+	background-size: cover;
+}
+
+#case1{
+	background: url('../img/case_1_bg.png')
+}
+
+
+}
