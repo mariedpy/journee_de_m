@@ -1,0 +1,28 @@
+{
+  "name": "journee_de_m",
+  "version": "1.0.0",
+  "description": "Repo du projet de fin d'études \"Encore une journée de merde\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp browser-sync",
+    "serve": "ngrok http 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariedpy/journee_de_m.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariedpy/journee_de_m/issues"
+  },
+  "homepage": "https://github.com/mariedpy/journee_de_m#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "ngrok": "^3.2.7"
+  }
+}
